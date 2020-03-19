@@ -34,7 +34,13 @@ li a:hover:not(.after) {
 
 #menubar{
 position:absolute;
-margin-top:130px;
+margin-top:60px;
+}
+
+#menubar1{
+position:absolute;
+margin-top:0.44px;
+margin-left:12px;
 }
 
 

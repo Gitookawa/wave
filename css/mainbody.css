@@ -11,11 +11,30 @@ position:absolute;
 margin-top:900px;
 }
 
+body #tokutyo1{
+position:absolute;
+margin-top:900px;
+margin-left:700px;
+}
+
+body #tokutyo2{
+position:absolute;
+margin-top:1200px;
+}
+
+body #tokutyo3{
+position:absolute;
+margin-top:1200px;
+margin-left:700px;
+}
+
+
+
 h1 {
   text-align: center;
   font-size: 30px;
   position: absolute;
-  margin-top:250px;
+  margin-top:170px;
   margin-left:200px;
   font-family: serif;
 }
@@ -23,7 +42,7 @@ h1 {
 /*最初のページのJSスライドショーのポジションの奴*/
 .img1 {
 position: absolute;
-margin-top:190px;
+margin-top:150px;
 margin-left:205px;
 }
 
@@ -52,4 +71,38 @@ background-color:#c0e5f0;
 #slideshow img.last-active {
    z-index: 9;
 }
-     
+
+#anime{
+position: absolute;
+margin-top: 730px;
+margin-left: 470px;
+}
+
+/*--animation--*/
+#animation {
+margin: 50px 0;
+font-size: 40px;
+font-weight: bold;
+color: #000000;
+font-family:serif;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}

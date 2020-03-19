@@ -34,8 +34,8 @@ $(function() {
   <header>
     <div id ="menubar"> 
       <ul>
-        <li><a href="#home">メインページ</a></li>
-        <li><a href="#news">サービス</a></li>
+        <li><a href="index.php">メインページ</a></li>
+        <li><a href="service.php">サービス</a></li>
         <li><a href="#contact">NEWS</a></li>
         <li><a href="#about">アクセス</a></li>
      </ul>
@@ -48,7 +48,20 @@ $(function() {
   </header>
  </div>
 <body>
- <h1>とことん綺麗にとことんしみ抜き、綺麗にするならクリーニングWAVE</h1>
+<script>
+ $('#animation').css('visibility','hidden');
+ $(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 100){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+</script>
+
 <script>
 $(function() {
   var h1 = $('h1');
@@ -65,6 +78,14 @@ $(function() {
   });
 });
 </script>
+
+
+ <h1>とことん綺麗にとことんしみ抜き、綺麗にするならクリーニングWAVE</h1>
+
+<div id="anime">
+ <p id="animation">WAVEの４つの特徴</p>
+</div>
+
 <div id="tokutyo">
  <div class="waku">
    <img src="img/neko.jpg" class="zukei" width="200" height="200">
@@ -78,9 +99,46 @@ $(function() {
   </div>
 </div>
 
+<div id="tokutyo1">
+ <div class="waku">
+   <img src="img/neko.jpg" class="zukei" width="200" height="200">
+    <span class="kasen">とことんシミ抜き</span>
+  <!--  <div class="kasenposition">
+     <span class="kasen">シミ</span>
+    </div>-->
+   <p>aaaaaaaaaaaaaaaaaaaaaaa<br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+  </div>
+</div>
+
+<div id="tokutyo2">
+ <div class="waku">
+   <img src="img/neko.jpg" class="zukei" width="200" height="200">
+    <span class="kasen">とことんシミ抜き</span>
+  <!--  <div class="kasenposition">
+     <span class="kasen">シミ</span>
+    </div>-->
+   <p>aaaaaaaaaaaaaaaaaaaaaaa<br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+  </div>
+</div>
+
+<div id="tokutyo3">
+ <div class="waku">
+   <img src="img/neko.jpg" class="zukei" width="200" height="200">
+    <span class="kasen">とことんシミ抜き</span>
+  <!--  <div class="kasenposition">
+     <span class="kasen">シミ</span>
+    </div>-->
+   <p>aaaaaaaaaaaaaaaaaaaaaaa<br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+  </div>
+</div>
 </body>
 <footer>
-
 </footer>
 </html>
 
