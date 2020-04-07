@@ -39,11 +39,14 @@ $(function() {
         <li><a href="#contact">NEWS</a></li>
         <li><a href="#about">アクセス</a></li>
      </ul>
-     <img class="img1"src="img/wave1.JPG"height="450"width="850">
+    <img class="img1"src="img/wave1.JPG"height="450"width="850">
    <p id="slideshow">
      <img class="img1"src="img/wave2.JPG" height="450"width="850" alt="wave2">
      <img class="img1"src="img/wave3.JPG" height="450"width="850" alt="wave3">
-     <img class="img1"src="img/wave4.JPG" height="450"width="850" alt="wave4">
+      <img class="img1"src="img/tsuru.JPG" height="450"width="850" alt="logos">
+     <img class="img1"src="img/logos.JPG" height="450"width="850" alt="logos">
+    <img class="img1"src="img/wave1.JPG"height="450"width="850">
+
   </p>    
   </header>
  </div>
@@ -88,57 +91,61 @@ $(function() {
 
 <div id="tokutyo">
  <div class="waku">
-   <img src="img/neko.jpg" class="zukei" width="200" height="200">
-    <span class="kasen">とことんシミ抜き</span>
+   <img src="img/cloth15.png" class="zukei" width="200" height="200">
+    <span class="kasen">Wクリーニング無料</span>
   <!--  <div class="kasenposition">
      <span class="kasen">シミ</span>
     </div>-->
-   <p>aaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+   <p>油性と水溶性の汚れ臭いをしっかりと<br>
+      落として臭いをしっかりと落として　　<br>
+   スッキリさっぱりと仕上げます</p>
   </div>
 </div>
 
 <div id="tokutyo1">
  <div class="waku">
-   <img src="img/neko.jpg" class="zukei" width="200" height="200">
+   <img src="img/sagyou3.png" class="zukei" width="200" height="200">
     <span class="kasen">とことんシミ抜き</span>
   <!--  <div class="kasenposition">
      <span class="kasen">シミ</span>
     </div>-->
-   <p>aaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+   <p>他店でオチなかったシミご相談下さい<br>
+   シミをつけてしまったらいじらずそのままお持ち下さい<br>
+   　　　　</p>
   </div>
 </div>
 
 <div id="tokutyo2">
  <div class="waku">
-   <img src="img/neko.jpg" class="zukei" width="200" height="200">
-    <span class="kasen">とことんシミ抜き</span>
+   <img src="img/cloth8.JPG" class="zukei" width="200" height="200">
+    <span class="kasen">毛玉取り無料</span>
   <!--  <div class="kasenposition">
      <span class="kasen">シミ</span>
     </div>-->
-   <p>aaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+   <p>オーバー類、セーター、カーディガン、<br>
+     マフラー等のニット類 コート、ダウン、<br>
+     ジャンパー等の襟 袖口のニット部分<br>
+     毛布のふちなどの毛玉無料でお取りします</p>
   </div>
 </div>
 
 <div id="tokutyo3">
  <div class="waku">
-   <img src="img/neko.jpg" class="zukei" width="200" height="200">
-    <span class="kasen">とことんシミ抜き</span>
+   <img src="img/bara.png" class="zukei" width="200" height="200">
+    <span class="kasen">溶剤がにおわない</span>
   <!--  <div class="kasenposition">
      <span class="kasen">シミ</span>
     </div>-->
-   <p>aaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
-   aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+   <p>パーク系溶剤は一般的に使用される石油系<br>
+   に比べ強力な洗浄力があります、ですので汚れ落ちが<br>
+   違います。白いものはより白く色物は鮮やかに<br>
+   また嫌な臭い残りがありません。</p>
+   
   </div>
 </div>
 </body>
 <footer>
+ <p>(C)2020 Tadashi Okawa.</p>
 </footer>
 </html>
 

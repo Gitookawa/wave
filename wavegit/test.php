@@ -5,7 +5,7 @@
  <body>
  <div id="tokutyo">
   <div class="waku">
-   <img src="img/neko.jpg" class="zukei" width="200" height="200">
+   <img src="img/murai.png" class="zukei" width="200" height="200">
      <span class="kasen">シミ抜きに強みが有ります</span>
    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>

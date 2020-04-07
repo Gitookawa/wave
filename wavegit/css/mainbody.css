@@ -29,6 +29,18 @@ margin-left:700px;
 }
 
 
+footer{
+text-align: center;
+color:#ffffff;
+position:absolute;
+margin-top:1800px;
+/*margin-left:550px;*/
+width:100%;
+min-width:1000px;
+background-color:#1bbcc2;
+}
+
+
 
 h1 {
   text-align: center;
@@ -69,7 +81,7 @@ background-color:#c0e5f0;
    opacity: 1.0;
 }
 #slideshow img.last-active {
-   z-index: 9;
+   z-index: 8;
 }
 
 #anime{
